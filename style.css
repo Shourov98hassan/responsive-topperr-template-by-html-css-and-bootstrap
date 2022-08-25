@@ -29,7 +29,6 @@
     background: url("./images/nav-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     height: 400px;
     width: 100%;
     position: relative;
@@ -52,6 +51,7 @@
 .navbar-text h6{
   
     font-weight: bold;
+
 }
 
 
@@ -81,4 +81,22 @@
     font-size: 2rem;
     bottom: 46%;
     right: 47%;
+}
+
+.about-para,.about-icon{
+    text-align: start;
+    margin-left: 20px;
+}
+
+.about-para h6{
+    font-weight: 700;
+}
+
+.about-para .italic{
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+.about-icon i{
+    color: rgb(241, 217, 221);
 }
