@@ -117,3 +117,24 @@
     height: 50px;
     width: 80px;
 }
+
+.testimonials-para{
+    background-color: rgb(236, 231, 231);
+    border-radius: 15px;
+    padding: 25px 25px;
+    padding-bottom:5px;
+    margin: 25px;
+    text-align: justify;
+
+
+}
+
+.testimonial-heading{
+    margin-top: -16px;
+}
+
+.testimonial-para{
+    margin-top: -10px;
+    font-weight:200;
+}
+
