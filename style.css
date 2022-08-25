@@ -3,8 +3,19 @@
     padding: 0;
 }
 
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.ideal-margin{
+    margin-left: 125px;
+    margin-right: 125px;
+    text-align:center;
+}
+
 .logo h2{
     color: rgb(238, 10, 124);
+    margin-right: 125px;
 }
 .navbar ul li{
     font-size: 1.2rem;
@@ -12,4 +23,62 @@
 
 .navbar ul li a:hover{
     color: rgb(238, 10, 124);
+}
+
+.navbar-body{
+    background: url("./images/nav-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.navbar-text{
+    position: absolute;
+    left: 70%;
+    top: 20%;
+    text-align: end;
+}
+
+.navbar-text h1{
+    color: rgb(238, 10, 124);
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+
+.navbar-text h6{
+  
+    font-weight: bold;
+}
+
+
+.navbar-text button{
+    border: none;
+    height: 34px;
+    width: 132px;
+    background-color: rgba(47, 33, 124, 0.795);
+    color:white;
+    transition: 1s;
+    font-size: 0.9rem;
+
+}
+
+.navbar-text button:hover{
+    background-color: rgba(53, 29, 192, 0.795);
+  
+
+}
+.about-heading{
+    position: relative;
+}
+
+.dotted{
+    position: absolute;
+    color: rgb(238, 10, 124);
+    font-size: 2rem;
+    bottom: 46%;
+    right: 47%;
 }
