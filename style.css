@@ -75,6 +75,10 @@
     position: relative;
 }
 
+.about-heading h1{
+    color: rgb(238, 10, 124);
+}
+
 .dotted{
     position: absolute;
     color: rgb(238, 10, 124);
@@ -99,4 +103,9 @@
 
 .about-icon i{
     color: rgb(241, 217, 221);
+}
+
+.card-body i{
+    font-size: 2rem;
+    
 }
