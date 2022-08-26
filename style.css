@@ -5,6 +5,7 @@
 
 .body{
     font-family: 'Poppins', sans-serif;
+
 }
 
 .ideal-margin{
@@ -227,42 +228,67 @@
     margin-bottom: 1px;
     color: rgb(238, 10, 124);
 }
-.contact-icon i{
-    margin: 20px;
-    font-size: 1.2rem;
-    color: rgb(238, 10, 124);
-}
 
 .contact-info{
-    margin-top: -173px;
     text-align: start;
-    margin-left: 54px;
+    margin-left: 10px;
 }
 
 .contact-info1{
-    margin-top: 12px;
-    margin-bottom: -10px;
-}
-
-.contact-info1 p{
-    margin-top: -7px;
-}
-.contact-info2{
-    margin-top: 22px;
-}
-
-.contact-info2 p{
-    margin-top: -7px;
-}
-
-.contact-info3{
-    margin-top: -9px;
-}
-
-.contact-info3 p{
-    margin-top: -9px;
-}
-
-.mail-icon i{
     margin-top: 10px;
+}
+
+
+
+
+.contact-icon2{
+    margin-top: 27px;
+}
+
+.contact-icon3{
+    margin-top: 23px; 
+}
+
+.contact-icon i{
+    margin: 10px;
+    font-size: 1.4rem;
+    color: rgb(238, 10, 124);
+}
+
+.contact-form input{
+    height: 50px;
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border: 1px solid  rgb(192, 190, 190);
+    margin: 10px;
+}
+
+.contact-form textarea{
+    height: 200px;
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border: 1px solid  rgb(192, 190, 190);
+    margin-top: 10px;
+    resize: none;
+}
+
+.contact-button {
+    border: none;
+    border: 1px solid white;
+    height: 37px;
+    width: 87px;
+    background-color: rgb(238, 10, 124);
+    color: white;
+    transition: 1s;
+    font-size: 0.9rem;
+    margin-top: 6px;
+    margin-left: 360px;
+    transition: 1s;
+}
+
+.contact-button:hover{
+    background-color: rgb(187, 54, 121);
+   
 }
