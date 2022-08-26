@@ -134,10 +134,182 @@ section{
 }
 
 .our-portfolio{
-    height: 750px;
+    height: 700px;
     width: 100%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    /* background:linear-gradient(to right,rgba(148, 85, 137, 0.815),blueviolet,blue); */
+    background:linear-gradient(to right,rgb(193, 136, 219),rgba(47, 33, 124, 0.795));
+    position: relative;
 }
+
+ .portfolio1{
+    margin-left: 60px;
+    margin-right: 60px;
+    position: relative;
+    position: absolute;
+
+  
+} 
+
+.portfolio2{
+    margin-left: 60px;
+    margin-right: 60px;
+    position: relative;
+    position: absolute;
+    bottom: 1%;
+
+  
+}
+
+.portfolio1 img,.portfolio2 img{
+ height: 200px;
+ width: 100%;
+
+  
+} 
+
+.name5{
+    position:absolute;
+    height: 70px;
+    width: 158px;
+    border: 1px solid rgba(255, 255, 255, 0.726);
+    bottom: 50%;
+    left: 6%;
+    background-color: rgba(138, 135, 135, 0.74);
+}
+
+
+.name6{
+    position: relative;
+    height: 70px;
+    width: 158px;
+    border: 1px solid rgba(255, 255, 255, 0.726);
+    bottom: 50%;
+    left: 26%;
+    background-color: rgba(138, 135, 135, 0.74);
+}
+
+.name7{
+    position: relative;
+    height: 70px;
+    width: 158px;
+    border: 1px solid rgba(255, 255, 255, 0.726);
+    bottom: 50%;
+    left: 26%;
+    background-color: rgba(138, 135, 135, 0.74);
+}
+
+
+.name8{
+    position: relative;
+    height: 70px;
+    width: 158px;
+    border: 1px solid rgba(255, 255, 255, 0.726);
+    bottom: 50%;
+    left: 26%;
+    background-color: rgba(138, 135, 135, 0.74);
+}
+
+.name1{
+    position:relative;
+    height: 70px;
+    width: 158px;
+    border: 1px solid rgba(255, 255, 255, 0.726);
+    bottom: 50%;
+    left: 26%;
+    background-color: rgba(138, 135, 135, 0.74);
+}
+
+.name2{
+    position: relative;
+    height: 70px;
+    width: 158px;
+    border: 1px solid rgba(255, 255, 255, 0.726);
+    bottom: 50%;
+    left: 26%;
+    background-color: rgba(138, 135, 135, 0.74);
+}
+
+.name3{
+    position: relative;
+    height: 70px;
+    width: 158px;
+    border: 1px solid rgba(255, 255, 255, 0.726);
+    bottom: 50%;
+    left: 26%;
+    background-color: rgba(138, 135, 135, 0.74);
+}
+
+.name4{
+    position: relative;
+    height: 70px;
+    width: 158px;
+    border: 1px solid rgba(255, 255, 255, 0.726);
+    bottom: 50%;
+    left: 26%;
+    background-color: rgba(138, 135, 135, 0.74);
+}
+
+
+.name5 p{
+    margin-top: 13px;
+    color:white;
+    line-height: 18px;
+    margin-left: 47px;
+}
+
+.name6 p{
+    margin-top: 13px;
+    color:white;
+    line-height: 18px;
+    margin-left: 47px;
+}
+
+.name7 p{
+    margin-top: 13px;
+    color:white;
+    line-height: 18px;
+    margin-left: 47px;
+}
+
+.name8 p{
+    margin-top: 13px;
+    color:white;
+    line-height: 18px;
+    margin-left: 47px;
+}
+
+.name1 p{
+    margin-top: 13px;
+    color:white;
+    line-height: 18px;
+    margin-left: 47px;
+}
+
+.name2 p{
+    margin-top: 13px;
+    color:white;
+    line-height: 18px;
+    margin-left: 47px;
+}
+
+.name3 p{
+    margin-top: 13px;
+    color:white;
+    line-height: 18px;
+    margin-left: 47px;
+}
+
+.name4 p{
+    margin-top: 13px;
+    color:white;
+    line-height: 18px;
+    margin-left: 47px;
+}
+
+
+
+
 
 .testimonials-para {
     background-color: rgb(236, 231, 231);
@@ -194,6 +366,7 @@ section{
     text-align: start;
 
 }
+
 
 .contact-button button {
     border: none;
@@ -295,7 +468,7 @@ section{
     resize: none;
 }
 
-.contact-button {
+.submit-button {
     border: none;
     border: 1px solid white;
     height: 37px;
@@ -309,7 +482,7 @@ section{
     transition: 1s;
 }
 
-.contact-button:hover {
+.submit-button:hover {
     background-color: rgb(187, 54, 121);
 
 }
