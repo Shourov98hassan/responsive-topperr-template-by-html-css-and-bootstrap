@@ -227,3 +227,42 @@
     margin-bottom: 1px;
     color: rgb(238, 10, 124);
 }
+.contact-icon i{
+    margin: 20px;
+    font-size: 1.2rem;
+    color: rgb(238, 10, 124);
+}
+
+.contact-info{
+    margin-top: -173px;
+    text-align: start;
+    margin-left: 54px;
+}
+
+.contact-info1{
+    margin-top: 12px;
+    margin-bottom: -10px;
+}
+
+.contact-info1 p{
+    margin-top: -7px;
+}
+.contact-info2{
+    margin-top: 22px;
+}
+
+.contact-info2 p{
+    margin-top: -7px;
+}
+
+.contact-info3{
+    margin-top: -9px;
+}
+
+.contact-info3 p{
+    margin-top: -9px;
+}
+
+.mail-icon i{
+    margin-top: 10px;
+}
