@@ -193,3 +193,37 @@
     background-color: rgba(42, 15, 194, 0.795);
     
 }
+
+.dotted2{
+    position: absolute;
+    color: rgb(238, 10, 124);
+    font-size: 2rem;
+    bottom: 46%;
+    right: 47%;
+    top: 65%;
+}
+
+.bottom-border{
+    border-bottom: 5px solid rgb(238, 10, 124);
+}
+
+.team-img img{
+    height: 200px;
+    width: 200px;
+}
+
+.social-icon i{
+    border: 1px solid rgb(192, 190, 190);
+    padding: 5px;
+    margin: 5px;
+    height: 26px;
+    width: 41px;
+    color:  rgb(192, 190, 190);
+    
+  
+}
+
+.team-heading,.team-para{
+    margin-bottom: 1px;
+    color: rgb(238, 10, 124);
+}
