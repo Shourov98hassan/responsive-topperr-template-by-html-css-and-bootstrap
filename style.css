@@ -292,3 +292,32 @@
     background-color: rgb(187, 54, 121);
    
 }
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(47, 33, 124, 0.795);
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.footer-para{
+    position: absolute;
+    top: 20px;
+    left: 40%;
+
+
+}
+
+.footer-para2{
+    position: absolute;
+    top: 48px;
+    left: 46%;
+
+
+}
+
+.owner{
+    color: rgb(238, 10, 124);
+}
