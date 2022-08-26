@@ -161,3 +161,35 @@
     margin-top: 20px;
    
 }
+
+.get-service{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(47, 33, 124, 0.795);
+}
+
+.get-info{
+   color: white;
+   text-align: start;
+   
+}
+
+.contact-button button{
+    border: none;
+    border: 1px solid white;
+    height: 34px;
+    width: 132px;
+    background-color: rgba(47, 33, 124, 0.795);
+    color:white;
+    transition: 1s;
+    font-size: 0.9rem;
+    margin-top: 80px;
+    margin-left: 35px;
+    transition: 1s;
+}
+
+.contact-button button:hover{
+ 
+    background-color: rgba(42, 15, 194, 0.795);
+    
+}
