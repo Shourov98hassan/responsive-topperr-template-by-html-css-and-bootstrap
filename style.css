@@ -1,86 +1,93 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.body{
+.body {
     font-family: 'Poppins', sans-serif;
 
 }
 
-.ideal-margin{
-    margin-left: 125px;
-    margin-right: 125px;
-    text-align:center;
+section{
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
-.logo h2{
+.ideal-margin {
+    margin-left: 125px;
+    margin-right: 125px;
+    text-align: center;
+}
+
+.logo h2 {
     color: rgb(238, 10, 124);
     margin-right: 125px;
 }
-.navbar ul li{
+
+.navbar ul li {
     font-size: 1.2rem;
 }
 
-.navbar ul li a:hover{
+.navbar ul li a:hover {
     color: rgb(238, 10, 124);
 }
 
-.navbar-body{
+.navbar-body {
     background: url("./images/nav-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
     width: 100%;
     position: relative;
-    
+
 }
 
-.navbar-text{
+.navbar-text {
     position: absolute;
     left: 70%;
     top: 20%;
     text-align: end;
 }
 
-.navbar-text h1{
+.navbar-text h1 {
     color: rgb(238, 10, 124);
     font-size: 2.9rem;
     font-weight: bold;
 }
 
-.navbar-text h6{
-  
+.navbar-text h6 {
+
     font-weight: bold;
 
 }
 
 
-.navbar-text button{
+.navbar-text button {
     border: none;
     height: 34px;
     width: 132px;
     background-color: rgba(47, 33, 124, 0.795);
-    color:white;
+    color: white;
     transition: 1s;
     font-size: 0.9rem;
 
 }
 
-.navbar-text button:hover{
+.navbar-text button:hover {
     background-color: rgba(53, 29, 192, 0.795);
-  
+
 
 }
-.about-heading{
+
+.about-heading {
     position: relative;
 }
 
-.about-heading h1{
+.about-heading h1 {
     color: rgb(238, 10, 124);
 }
 
-.dotted{
+.dotted {
     position: absolute;
     color: rgb(238, 10, 124);
     font-size: 2rem;
@@ -88,21 +95,22 @@
     right: 47%;
 }
 
-.about-para,.about-icon{
+.about-para,
+.about-icon {
     text-align: start;
     margin-left: 20px;
 }
 
-.about-para h6{
+.about-para h6 {
     font-weight: 700;
 }
 
-.about-para .italic{
+.about-para .italic {
     font-size: 1.1rem;
     font-weight: 100;
 }
 
-.about-icon i{
+.about-icon i {
     color: rgb(241, 217, 221);
 }
 
@@ -113,33 +121,45 @@
 
 }
 
-.client-img img{
-    margin:0px 40px;
+
+
+
+
+
+
+.client-img img {
+    margin: 0px 40px;
     height: 50px;
     width: 80px;
 }
 
-.testimonials-para{
+.our-portfolio{
+    height: 750px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.testimonials-para {
     background-color: rgb(236, 231, 231);
     border-radius: 15px;
     padding: 25px 25px;
-    padding-bottom:5px;
+    padding-bottom: 5px;
     margin: 25px;
     text-align: justify;
 
 
 }
 
-.testimonial-heading{
+.testimonial-heading {
     margin-top: -16px;
 }
 
-.testimonial-para{
+.testimonial-para {
     margin-top: -10px;
-    font-weight:200;
+    font-weight: 200;
 }
 
-.gray-circle{
+.gray-circle {
     height: 10px;
     width: 10px;
     background-color: rgb(236, 231, 231);
@@ -147,7 +167,7 @@
 }
 
 
-.pink-circle{
+.pink-circle {
     height: 10px;
     width: 10px;
     background-color: rgb(238, 10, 124);
@@ -155,33 +175,33 @@
     margin-left: 10px;
 }
 
-.circle-ball{
+.circle-ball {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-   
+
 }
 
-.get-service{
+.get-service {
     height: 200px;
     width: 100%;
     background-color: rgba(47, 33, 124, 0.795);
 }
 
-.get-info{
-   color: white;
-   text-align: start;
-   
+.get-info {
+    color: white;
+    text-align: start;
+
 }
 
-.contact-button button{
+.contact-button button {
     border: none;
     border: 1px solid white;
     height: 34px;
     width: 132px;
     background-color: rgba(47, 33, 124, 0.795);
-    color:white;
+    color: white;
     transition: 1s;
     font-size: 0.9rem;
     margin-top: 80px;
@@ -189,13 +209,13 @@
     transition: 1s;
 }
 
-.contact-button button:hover{
- 
+.contact-button button:hover {
+
     background-color: rgba(42, 15, 194, 0.795);
-    
+
 }
 
-.dotted2{
+.dotted2 {
     position: absolute;
     color: rgb(238, 10, 124);
     font-size: 2rem;
@@ -204,72 +224,73 @@
     top: 65%;
 }
 
-.bottom-border{
+.bottom-border {
     border-bottom: 5px solid rgb(238, 10, 124);
 }
 
-.team-img img{
+.team-img img {
     height: 200px;
     width: 200px;
 }
 
-.social-icon i{
+.social-icon i {
     border: 1px solid rgb(192, 190, 190);
     padding: 5px;
     margin: 5px;
     height: 26px;
     width: 41px;
-    color:  rgb(192, 190, 190);
-    
-  
+    color: rgb(192, 190, 190);
+
+
 }
 
-.team-heading,.team-para{
+.team-heading,
+.team-para {
     margin-bottom: 1px;
     color: rgb(238, 10, 124);
 }
 
-.contact-info{
+.contact-info {
     text-align: start;
     margin-left: 10px;
 }
 
-.contact-info1{
+.contact-info1 {
     margin-top: 10px;
 }
 
 
 
 
-.contact-icon2{
+.contact-icon2 {
     margin-top: 27px;
 }
 
-.contact-icon3{
-    margin-top: 23px; 
+.contact-icon3 {
+    margin-top: 23px;
 }
 
-.contact-icon i{
+.contact-icon i {
     margin: 10px;
     font-size: 1.4rem;
     color: rgb(238, 10, 124);
 }
 
-.contact-form input{
+.contact-form input {
     height: 50px;
     width: 70%;
     padding: 10px;
     border: none;
-    border: 1px solid  rgb(192, 190, 190);
+    border: 1px solid rgb(192, 190, 190);
     margin: 10px;
 }
 
-.contact-form textarea{
+.contact-form textarea {
     height: 200px;
     width: 70%;
     padding: 10px;
     border: none;
-    border: 1px solid  rgb(192, 190, 190);
+    border: 1px solid rgb(192, 190, 190);
     margin-top: 10px;
     resize: none;
 }
@@ -288,12 +309,12 @@
     transition: 1s;
 }
 
-.contact-button:hover{
+.contact-button:hover {
     background-color: rgb(187, 54, 121);
-   
+
 }
 
-.footer{
+.footer {
     height: 100px;
     width: 100%;
     background-color: rgba(47, 33, 124, 0.795);
@@ -302,7 +323,7 @@
     position: relative;
 }
 
-.footer-para{
+.footer-para {
     position: absolute;
     top: 20px;
     left: 40%;
@@ -310,7 +331,7 @@
 
 }
 
-.footer-para2{
+.footer-para2 {
     position: absolute;
     top: 48px;
     left: 46%;
@@ -318,6 +339,6 @@
 
 }
 
-.owner{
+.owner {
     color: rgb(238, 10, 124);
 }
