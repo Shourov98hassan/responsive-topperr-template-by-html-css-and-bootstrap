@@ -1,11 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .body {
     font-family: 'Poppins', sans-serif;
 
+}
+
+.main-container{
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 section{
@@ -17,6 +23,102 @@ section{
     margin-left: 125px;
     margin-right: 125px;
     text-align: center;
+}
+
+.mini-navbar{
+    height: 45px;
+    width: 100%;
+    background:linear-gradient(to right,rgb(193, 136, 219),rgba(47, 33, 124, 0.795));
+
+}
+
+.my-email{
+    margin-left: 165px;
+}
+
+/* .my-email:hover{
+    color: rgb(238, 10, 124); 
+} */
+
+
+
+.para1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    
+    
+}
+
+.para1:hover{
+    color: rgb(238, 10, 124); 
+    cursor: pointer;
+}
+
+.mini-icon{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content:flex-end;
+    margin-top: -35px;
+    margin-right: -320px;
+
+    
+}
+
+.mini-icon i{
+    color: rgb(238, 10, 124);
+    margin-inline: 10px;
+    
+}
+
+.mini-icon i:hover{
+    cursor: pointer;
+  
+}
+
+
+
+
+.right-border{
+    border-right: 1px solid rgb(204, 186, 186);
+    height: 20px;
+    width: 10px;
+    margin-top: -37px;
+    margin-left: 198px;
+}
+
+.border-right2{
+    border-right: 1px solid rgb(204, 186, 186);
+    height: 20px;
+    width: 10px;
+    margin-top: -21px;
+    margin-left: 30px;
+}
+
+.border-right3{
+    border-right: 1px solid rgb(204, 186, 186);
+    height: 20px;
+    width: 10px;
+    margin-top: -21px;
+    margin-left:27px;
+}
+
+.border-right4{
+    border-right: 1px solid rgb(204, 186, 186);
+    height: 20px;
+    width: 10px;
+    margin-top: -21px;
+    margin-left:27px;
+}
+
+.border-right5{
+    border-right: 1px solid rgb(204, 186, 186);
+    height: 20px;
+    width: 10px;
+    margin-top: -21px;
+    margin-left:27px;
 }
 
 .logo h2 {
@@ -115,7 +217,7 @@ section{
 }
 
 .card-body i{
-    color:red;
+    color:purple;
     font-size: 2rem;
    
 
@@ -167,6 +269,7 @@ section{
 
   
 } 
+
 
 .name5{
     position:absolute;
