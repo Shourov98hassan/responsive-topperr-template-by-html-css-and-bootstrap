@@ -26,6 +26,7 @@ section{
 }
 
 .mini-navbar{
+  
     height: 45px;
     width: 100%;
     background:linear-gradient(to right,rgb(193, 136, 219),rgba(47, 33, 124, 0.795));
@@ -36,9 +37,6 @@ section{
     margin-left: 165px;
 }
 
-/* .my-email:hover{
-    color: rgb(238, 10, 124); 
-} */
 
 
 
@@ -124,6 +122,13 @@ section{
 .logo h2 {
     color: rgb(238, 10, 124);
     margin-right: 125px;
+}
+
+.navbar-section{
+   
+
+   
+ 
 }
 
 .navbar ul li {
