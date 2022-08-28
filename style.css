@@ -650,17 +650,6 @@ section{
         left: 30.5%;
     }
 
-
-
-
-
-
-
-
-
-
-
-
     .navbar-section .logo{
         margin-top: 50px;
         margin-right: 300px;
@@ -680,7 +669,7 @@ section{
 
     .navbar-text{
         margin-right:100%;
-        /* position: relative; */
+        
     }
 
     .navbar-text h1{
@@ -700,7 +689,6 @@ section{
         height: 25px;
         width: 100px;
         font-size: 0.8rem;
-        /* top: 100%; */
         bottom: -130%;
        
         
@@ -733,10 +721,13 @@ section{
         margin-top: 25px;
     }
 
+    .clients{
+        height: 520px;
+    }
+
     .client-img{
         margin-bottom:300px;
-        /* height: 30px;
-        width: 50px; */
+        
     }
 
     .client-img img{
@@ -811,11 +802,6 @@ section{
         top:93%;
         left: 38%;
     }
-    
-
-
-
-    
 
        .get-service {
         height: 350px;
@@ -887,17 +873,4 @@ section{
     }
 
   
-    
-
-
-
-
-
-
-
-
-
-
-
-
 }
