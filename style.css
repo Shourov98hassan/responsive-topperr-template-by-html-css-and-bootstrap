@@ -223,11 +223,9 @@ section{
 
 }
 
-
-
-
-
-
+.clients{
+    margin-bottom: 80px;
+}
 
 .client-img img {
     margin: 0px 40px;
@@ -236,180 +234,181 @@ section{
 }
 
 .our-portfolio{
-    height: 700px;
+    height: 790px;
     width: 100%;
-    /* background-color: blueviolet; */
-    /* background:linear-gradient(to right,rgba(148, 85, 137, 0.815),blueviolet,blue); */
     background:linear-gradient(to right,rgb(193, 136, 219),rgba(47, 33, 124, 0.795));
+    color: white;
+    text-align: center;
     position: relative;
+   
 }
 
- .portfolio1{
-    margin-left: 60px;
-    margin-right: 60px;
-    position: relative;
+.our-portfolio h1{
+    color: rgb(238, 10, 124);
+    margin-top: 50px;
+}
+
+.our-portfolio img{
+    height: 250px;
+    width: 100%;
+}
+
+.dotted3{
     position: absolute;
+    font-size: 2.5rem;
+    left:47%;
+    bottom:80%;
+    color: rgb(238, 10, 124);
+}
 
-  
-} 
+.first-row{
+    margin: 0px 80px;
+}
 
-.portfolio2{
-    margin-left: 60px;
-    margin-right: 60px;
+.portfolio-para{
+    margin: 0px 60px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.portfolio-img img{
+    height: 250px;
+    width: 100%;
+}
+
+
+
+.portfolio-img1{
     position: relative;
+
+}
+
+.portfolio-img2{
+    position: relative;
+
+}
+
+.portfolio-img3{
+    position: relative;
+
+}
+
+.portfolio-img4{
+    position: relative;
+
+}
+
+.portfolio-img5{
+    position: relative;
+
+}
+
+.portfolio-img6{
+    position: relative;
+
+}
+
+.portfolio-img7{
+    position: relative;
+
+}
+
+.portfolio-img8{
+    position: relative;
+
+}
+
+
+
+
+
+.portfolio-name1{
     position: absolute;
-    bottom: 1%;
-
-  
+    height: 50px;
+    width: 90px;
+    border: 1px solid white;
+    bottom: 57%;
+    left: 13%;
+    font-weight: bold;
+    background-color:rgba(143, 141, 141, 0.767);
 }
 
-.portfolio1 img,.portfolio2 img{
- height: 200px;
- width: 100%;
-
-  
-} 
-
-
-.name5{
-    position:absolute;
-    height: 70px;
-    width: 158px;
-    border: 1px solid rgba(255, 255, 255, 0.726);
-    bottom: 50%;
-    left: 6%;
-    background-color: rgba(138, 135, 135, 0.74);
+.portfolio-name2{
+    position: absolute;
+    height: 50px;
+    width: 90px;
+    border: 1px solid white;
+    bottom: 57%;
+    left:35%;
+    font-weight: bold;
+    background-color:rgba(143, 141, 141, 0.767);
 }
 
-
-.name6{
-    position: relative;
-    height: 70px;
-    width: 158px;
-    border: 1px solid rgba(255, 255, 255, 0.726);
-    bottom: 50%;
-    left: 26%;
-    background-color: rgba(138, 135, 135, 0.74);
+.portfolio-name3{
+    position: absolute;
+    height: 50px;
+    width: 90px;
+    border: 1px solid white;
+    bottom: 57%;
+    left:58%;
+    font-weight: bold;
+    background-color:rgba(143, 141, 141, 0.767);
 }
 
-.name7{
-    position: relative;
-    height: 70px;
-    width: 158px;
-    border: 1px solid rgba(255, 255, 255, 0.726);
-    bottom: 50%;
-    left: 26%;
-    background-color: rgba(138, 135, 135, 0.74);
+.portfolio-name4{
+    position: absolute;
+    height: 50px;
+    width: 90px;
+    border: 1px solid white;
+    bottom: 57%;
+    left:79%;
+    font-weight: bold;
+    background-color:rgba(143, 141, 141, 0.767);
 }
+.portfolio-name5{
+    position: absolute;
+    height: 50px;
+    width: 90px;
+    border: 1px solid white;
 
-
-.name8{
-    position: relative;
-    height: 70px;
-    width: 158px;
-    border: 1px solid rgba(255, 255, 255, 0.726);
-    bottom: 50%;
-    left: 26%;
-    background-color: rgba(138, 135, 135, 0.74);
+    left:12%; 
+    font-weight: bold;
+    background-color:rgba(143, 141, 141, 0.767);
+    top: 70%;
 }
+.portfolio-name6{
+    position: absolute;
+    height: 50px;
+    width: 90px;
+    border: 1px solid white;
 
-.name1{
-    position:relative;
-    height: 70px;
-    width: 158px;
-    border: 1px solid rgba(255, 255, 255, 0.726);
-    bottom: 50%;
-    left: 26%;
-    background-color: rgba(138, 135, 135, 0.74);
+    left:35%;
+    font-weight: bold;
+    background-color:rgba(143, 141, 141, 0.767);
+    top: 70%;
 }
+.portfolio-name7{
+    position: absolute;
+    height: 50px;
+    width: 90px;
+    border: 1px solid white;
 
-.name2{
-    position: relative;
-    height: 70px;
-    width: 158px;
-    border: 1px solid rgba(255, 255, 255, 0.726);
-    bottom: 50%;
-    left: 26%;
-    background-color: rgba(138, 135, 135, 0.74);
+    left:58%;
+    font-weight: bold;
+    background-color:rgba(143, 141, 141, 0.767);
+    top: 70%;
 }
+.portfolio-name8{
+    position: absolute;
+    height: 50px;
+    width: 90px;
+    border: 1px solid white;
 
-.name3{
-    position: relative;
-    height: 70px;
-    width: 158px;
-    border: 1px solid rgba(255, 255, 255, 0.726);
-    bottom: 50%;
-    left: 26%;
-    background-color: rgba(138, 135, 135, 0.74);
+    left:79%;
+    font-weight: bold;
+    background-color:rgba(143, 141, 141, 0.767);
+    top: 70%;
 }
-
-.name4{
-    position: relative;
-    height: 70px;
-    width: 158px;
-    border: 1px solid rgba(255, 255, 255, 0.726);
-    bottom: 50%;
-    left: 26%;
-    background-color: rgba(138, 135, 135, 0.74);
-}
-
-
-.name5 p{
-    margin-top: 13px;
-    color:white;
-    line-height: 18px;
-    margin-left: 47px;
-}
-
-.name6 p{
-    margin-top: 13px;
-    color:white;
-    line-height: 18px;
-    margin-left: 47px;
-}
-
-.name7 p{
-    margin-top: 13px;
-    color:white;
-    line-height: 18px;
-    margin-left: 47px;
-}
-
-.name8 p{
-    margin-top: 13px;
-    color:white;
-    line-height: 18px;
-    margin-left: 47px;
-}
-
-.name1 p{
-    margin-top: 13px;
-    color:white;
-    line-height: 18px;
-    margin-left: 47px;
-}
-
-.name2 p{
-    margin-top: 13px;
-    color:white;
-    line-height: 18px;
-    margin-left: 47px;
-}
-
-.name3 p{
-    margin-top: 13px;
-    color:white;
-    line-height: 18px;
-    margin-left: 47px;
-}
-
-.name4 p{
-    margin-top: 13px;
-    color:white;
-    line-height: 18px;
-    margin-left: 47px;
-}
-
 
 
 
@@ -617,4 +616,288 @@ section{
 
 .owner {
     color: rgb(238, 10, 124);
+}
+
+
+
+@media(max-width:540px){
+
+    .mini-navbar{
+        height: 100px;
+        width: 100%;
+        position: relative;
+    }
+
+    .my-email{
+        position: absolute;
+        left:-32%;
+
+    }
+
+    .my-phone{
+        position: absolute;
+        top: 25%;
+        left: 30%;
+    }
+
+    .right-border{
+        display: none;
+    }
+
+    .mini-icon{
+        position: absolute;
+        top: 95%;
+        left: 30.5%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .navbar-section .logo{
+        margin-top: 50px;
+        margin-right: 300px;
+    }
+
+    .navbar-section nav{
+        margin-top: -58px;
+        margin-left: 200px;
+    }
+
+    .navbar-body{
+        margin-top: 20px;
+        height: 200px;
+        width: 100%;
+        position: relative;
+    }
+
+    .navbar-text{
+        margin-right:100%;
+        /* position: relative; */
+    }
+
+    .navbar-text h1{
+        font-size: 1.5rem;
+        margin-right: 400px;
+    }
+    .navbar-text h6{
+        position: absolute;
+        font-size: 1rem;
+        margin-right: 400px;
+       
+    }
+
+    .navbar-text button{
+        right: 80%;
+        position: absolute;
+        height: 25px;
+        width: 100px;
+        font-size: 0.8rem;
+        /* top: 100%; */
+        bottom: -130%;
+       
+        
+    }
+
+    .about-heading{
+        position: relative;
+        text-align: center;
+    }
+
+    .about-heading h1{
+      font-size: 1.5rem;
+    }
+    
+
+
+    .dotted{
+        position: absolute;
+        top:2%;
+        left: 40%;
+       
+
+    }
+
+    .about-info{
+        text-align: center;
+    }
+
+    .card-margin{
+        margin-top: 25px;
+    }
+
+    .client-img{
+        margin-bottom:300px;
+        /* height: 30px;
+        width: 50px; */
+    }
+
+    .client-img img{
+        margin: 20px;
+    }
+
+    .our-portfolio{
+        height: 100%;
+        width: 100%;
+        background-color: teal;
+        position: relative;
+    }
+
+    .our-portfolio h1{
+        margin-top: 50px;
+    }
+    .our-portfolio img{
+        height: 250px;
+        width: 100%;
+    }
+
+    .dotted3{
+        position: absolute;
+        top:50px;
+        right: 390px;
+    }
+
+    .portfolio-name1{
+        position: absolute;
+        top:15%;
+        left: 38%;
+    }
+
+    .portfolio-name2{
+        position: absolute;
+        top:26%;
+        left: 38%;
+    }
+    
+    .portfolio-name3{
+        position: absolute;
+        top:37%;
+        left: 38%;
+    }
+
+    .portfolio-name4{
+        position: absolute;
+        top:49%;
+        left: 38%;
+    }
+    
+    .portfolio-name5{
+        position: absolute;
+        top:60%;
+        left: 38%;
+    }
+
+    .portfolio-name6{
+        position: absolute;
+        top:71%;
+        left: 38%;
+    }
+
+    .portfolio-name7{
+        position: absolute;
+        top:82%;
+        left: 38%;
+    }
+
+    .portfolio-name8{
+        position: absolute;
+        top:93%;
+        left: 38%;
+    }
+    
+
+
+
+    
+
+       .get-service {
+        height: 350px;
+        position: relative;
+        text-align: center;
+       
+    }
+
+    .contact-button{
+        position: absolute;
+        top: 60%;
+        left: 17%;
+    }
+
+    .our-team{
+        position: relative;
+    }
+
+    .dotted2{
+        position: absolute;
+        left: 38%;
+       
+    }
+
+    .contact-us{
+        position: relative;
+    }
+
+    .contact-icon{
+        position: absolute;
+        right: 97%;
+       
+        
+    }
+
+   
+    .contact-icon2{
+        position: absolute;
+        top: 150%;
+        
+    }
+
+    .contact-icon3{
+        position: absolute;
+        top:320%;
+        
+    }
+
+    .submit-button{
+        position: absolute;
+        right:68%;
+        height:25px;
+        width: 50px;
+
+    }
+
+    .footer{
+        position: relative;
+    }
+
+    .footer-para{
+        position: absolute;
+        left: 25%;
+    }
+
+    .footer-para2{
+        position: absolute;
+        left: 40%;
+    }
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
 }
